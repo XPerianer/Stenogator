@@ -1,5 +1,5 @@
 #include "stdafx.h"
-//Hilfsfunktion für Konvertierung von ASCII in binär
+//Hilfsfunktion fï¿½r Konvertierung von ASCII in binï¿½r
 string A_to_B(const char* input) 
 {
 	string str;
@@ -86,7 +86,7 @@ int hidestring(Bitmap* img,string* str)
 	if(bin[position]=='0'){bBit=false;}else{bBit=true;}
 		cout << "C-String: " << bBit << "Pixel: " << (int)col.GetRed() % 2;
 		
-		//Farbwerte anpassen
+		//Farbwerte anpassen Adjust Colors
 		if((int)col.GetRed() % 2 == bBit)
 		{
 			cout << "y" << endl;
