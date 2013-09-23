@@ -108,7 +108,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	CLSID pngClsid;
 	GetEncoderClsid(L"image/png",&pngClsid);
-	Source.Save(L"Final.png", &pngClsid, NULL);
+	Source.Save(L"Final.png", &pngClsid, NULL);  //Add Dialog to change that path
 
 	system("PAUSE");
 	return 0;
