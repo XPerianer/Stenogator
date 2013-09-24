@@ -1,2 +1,2 @@
-#include "stdafx.h"
+#include "Stenogator.h"
 int hidestring(Bitmap* img,string* str);

@@ -1,16 +1,8 @@
 // Stenogator.cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
-//
 
-#include "stdafx.h"
+#include "Stenogator.h"
 #include "Imageedit.h"
-#include <iostream>
-#include <string>
-#include <windows.h>
-#include <objidl.h>
-#include <gdiplus.h>
-using namespace Gdiplus;
-#pragma comment (lib,"Gdiplus.lib")
-using namespace std;
+
 
 
 string B_to_A(const char* input)
@@ -89,7 +81,7 @@ int GetEncoderClsid(const WCHAR* format, CLSID* pClsid)
 }
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	// Initialize GDI+.
    GdiplusStartupInput gdiplusStartupInput;

@@ -1,4 +1,4 @@
-#include "stdafx.h"
+#include "Imageedit.h"
 //Hilfsfunktion f�r Konvertierung von ASCII in bin�r
 string A_to_B(const char* input) 
 {
